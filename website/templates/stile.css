@@ -1,0 +1,41 @@
+.body {
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.imagen {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.texto {
+    margin-left: 20px;
+}
+
+.texto h2 span {
+    color: gray;
+}
+.hero {
+    background-image: url("https://ethic.es/wp-content/uploads/2023/03/imagen-1280x768.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 80px 0;
+    color: rgb(255, 255, 255);
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero h3 {
+    font-size: 25px;
+}
